@@ -30,9 +30,9 @@ const Button = ({ index }) => {
         {index + 1}
         <button className="w-8 h-8 border rounded-md m-2">+</button>
         <button className="w-8 h-8 border rounded-md m-2">-</button>
-        {children.map((_, i) => (
+        {/* {children.map((_, i) => (
           <Button index={i} />
-        ))}
+        ))} */}
       </div>
     </>
   );
